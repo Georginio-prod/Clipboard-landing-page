@@ -13,10 +13,13 @@ module.exports = {
         '-0.59': '-0.59px',
       },
       spacing: {
-        '150': '150px', 
-      },
-      spacing: {
         '730': '730px', 
+      },
+      width: {
+        '350': '350px', 
+      },
+      padding: {
+        'padding1': '150px', // Définition d'une nouvelle valeur pour le padding
       },
     },
   },

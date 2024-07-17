@@ -10,7 +10,10 @@
       href="./public/favicon-32x32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:500,600">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:500,600"
+    />
     <script type="module" src="/main.js"></script>
   </head>
   <body class="bg-white relative h-full flex-col">
@@ -31,32 +34,85 @@
         </div>
       </header>
 
-      <main class="flex justify-center items-center flex-col" >
-        <div class="max-w-730 text-center font-medium text-gray text-xl leading-7 mt-4 tracking-wide mb-12">
+      <main class="flex-col">
+        <div
+          class="max-w-730 mx-auto text-center font-medium text-gray text-xl leading-7 mt-4 tracking-wide mb-12"
+        >
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </div>
 
-        <div>
-          <button class="w-57 h-14 bg-ios mr-4 text-white pr-9 pl-9 font-semibold rounded-full">
+        <div class="justify-center items-center flex">
+          <button
+            class="w-57 h-14 bg-ios mr-4 text-white pr-9 pl-9 font-semibold rounded-full"
+          >
             Download for iOS
           </button>
-          <button class="w-57 h-14 bg-mac text-white pr-9 pl-9 font-semibold rounded-full">
+          <button
+            class="w-57 h-14 bg-mac text-white pr-9 pl-9 font-semibold rounded-full"
+          >
             Download for Mac
           </button>
         </div>
 
-        <div class="flex flex-col items-center justify-center text-center ">
-          <h1 class="text-customGray font-semibold text-4xl -tracking--0.59 mt-36">
+        <div class="flex flex-col items-center justify-center text-center">
+          <h1
+            class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1"
+          >
             Keep track of your snippets
           </h1>
 
           <p class="max-w-730 mt-5 text-lg text-gray">
-            Clipboard instantly stores any item you copy in the cloud, 
-            meaning you can access your snippets immediately on all your 
-            devices. Our Mac and iOS apps will help you organize everything.
-
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
           </p>
+        </div>
+
+        <div class="flex flex-row gap-28 mt-20 items-center justify-start">
+          <div class="flex items-center justify-start float-left">
+            <img src="./public/Group 18.png" alt="screm" />
+          </div>
+
+          <div class="">
+            <ul class="text-customGray font-semibold pb-2">
+              Quick Search
+            </ul>
+            <p class="text-gray text-base w-350">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+
+            <ul class="pt-16 text-customGray font-semibold pb-2">
+              iCloud Sync
+            </ul>
+            <p class="text-gray text-base w-350">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+
+            <ul class="pt-16 text-customGray font-semibold pb-2">
+              Complete History
+            </ul>
+            <p class="text-gray text-base w-350">
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+          <h1 class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1">
+            Access Clipboard anywhere
+          </h1>
+
+          <h3 class="max-w-730 mt-5 text-lg text-gray text-center">
+            Whether you’re on the go, or at your computer, you can access all your Clipboard 
+            snippets in a few simple clicks.
+          </h3>
+
+          <div class="mt-28">
+            <img src="./public/Group 29.png" alt="screm">
+          </div>
         </div>
       </main>
     </div>
