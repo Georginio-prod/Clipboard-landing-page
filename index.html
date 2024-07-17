@@ -1,14 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="bg-red-500"> hlllllfddll</div>
-    
+    <title>Clipboard landing</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <script type="module" src="/main.js"></script>
+  </head>
+  <body class="bg-white relative h-full flex-col">
+    <div class="w-full max-w-360 relative  justify-center items-center flex-col">
+      <header class="w-full relative flex justify-center items-center">
+        <img
+          src="./public/Bitmap.png"
+          alt="background"
+          class="absolute w-full h-auto top-0 z-10 left-1/2 transform -translate-x-1/2"
+        />
+        <div class="relative z-20 pt-32 flex flex-col items-center">
+          <img
+            src="./public/Group 11.svg"
+            alt="font"
+            class="relative"
+          />
+          <h1 class="flex justify-center items-center mt-14 text-4xl font-semibold text-customGray">
+            A history of everything you copy
+          </h1>
+        </div>
+      </header>
+
+      <main class="flex justify-center items-center">
+        <div class="max-w-2xl text-center font-medium text-gray leading-7 mt-4">
+          Clipboard allows you to track and organize everything you 
+          copy. Instantly access your clipboard on all your devices.
+        </div>
+      </main>
+    </div>
   </body>
 </html>
