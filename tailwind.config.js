@@ -21,6 +21,9 @@ module.exports = {
       padding: {
         'padding1': '150px', // Définition d'une nouvelle valeur pour le padding
       },
+      gap: {
+        '30': '30px'
+      }
     },
   },
   plugins: [],

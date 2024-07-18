@@ -1,132 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clipboard landing</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="shortcut icon"
-      href="./public/favicon-32x32.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:500,600"
-    />
-    <script type="module" src="/main.js"></script>
-  </head>
-  <body class="bg-white relative h-full flex-col">
-    <div class="w-full max-w-360 relative justify-center items-center flex-col">
-      <header class="w-full relative flex justify-center items-center">
-        <img
-          src="./public/Bitmap.png"
-          alt="background"
-          class="absolute w-full h-auto top-0 z-10 left-1/2 transform -translate-x-1/2"
-        />
-        <div class="relative z-20 pt-32 flex flex-col items-center">
-          <img src="./public/Group 11.svg" alt="font" class="relative" />
-          <h1
-            class="flex justify-center items-center mt-14 text-4xl font-semibold text-customGray tracking-wider"
-          >
-            A history of everything you copy
-          </h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clipboard landing</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./public/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:500,600" />
+  <script type="module" src="/main.js"></script>
+</head>
+
+<body class="bg-white relative h-full flex-col">
+  <div class="w-full max-w-360 relative justify-center items-center flex-col">
+    <header class="w-full relative flex justify-center items-center">
+      <img src="./public/Bitmap.png" alt="background"
+        class="absolute w-full h-auto top-0 z-10 left-1/2 transform -translate-x-1/2" />
+      <div class="relative z-20 pt-32 flex flex-col items-center">
+        <img src="./public/Group 11.svg" alt="font" class="relative" />
+        <h1 class="flex justify-center items-center mt-14 text-4xl font-semibold text-customGray tracking-wider">
+          A history of everything you copy
+        </h1>
+      </div>
+    </header>
+
+    <main class="flex-col">
+      <div class="max-w-730 mx-auto text-center font-medium text-gray text-xl leading-7 mt-4 tracking-wide mb-12">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </div>
+
+      <div class="justify-center items-center flex">
+        <button class="w-57 h-14 bg-ios mr-4 text-white pr-9 pl-9 font-semibold rounded-full">
+          Download for iOS
+        </button>
+        <button class="w-57 h-14 bg-mac text-white pr-9 pl-9 font-semibold rounded-full">
+          Download for Mac
+        </button>
+      </div>
+
+      <div class="flex flex-col items-center justify-center text-center">
+        <h1 class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1">
+          Keep track of your snippets
+        </h1>
+
+        <p class="max-w-730 mt-5 text-lg text-gray">
+          Clipboard instantly stores any item you copy in the cloud, meaning
+          you can access your snippets immediately on all your devices. Our
+          Mac and iOS apps will help you organize everything.
+        </p>
+      </div>
+
+      <div class="flex flex-row gap-28 mt-20 items-center justify-start">
+        <div class="flex items-center justify-start float-left">
+          <img src="./public/Group 18.png" alt="screm" />
         </div>
-      </header>
 
-      <main class="flex-col">
-        <div
-          class="max-w-730 mx-auto text-center font-medium text-gray text-xl leading-7 mt-4 tracking-wide mb-12"
-        >
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </div>
+        <div class="">
+          <ul class="text-customGray font-semibold pb-2">
+            Quick Search
+          </ul>
+          <p class="text-gray text-base w-350">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
 
-        <div class="justify-center items-center flex">
-          <button
-            class="w-57 h-14 bg-ios mr-4 text-white pr-9 pl-9 font-semibold rounded-full"
-          >
-            Download for iOS
-          </button>
-          <button
-            class="w-57 h-14 bg-mac text-white pr-9 pl-9 font-semibold rounded-full"
-          >
-            Download for Mac
-          </button>
-        </div>
+          <ul class="pt-16 text-customGray font-semibold pb-2">
+            iCloud Sync
+          </ul>
+          <p class="text-gray text-base w-350">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
 
-        <div class="flex flex-col items-center justify-center text-center">
-          <h1
-            class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1"
-          >
-            Keep track of your snippets
-          </h1>
-
-          <p class="max-w-730 mt-5 text-lg text-gray">
-            Clipboard instantly stores any item you copy in the cloud, meaning
-            you can access your snippets immediately on all your devices. Our
-            Mac and iOS apps will help you organize everything.
+          <ul class="pt-16 text-customGray font-semibold pb-2">
+            Complete History
+          </ul>
+          <p class="text-gray text-base w-350">
+            Retrieve any snippets from the first moment you started using the
+            app.
           </p>
         </div>
+      </div>
 
-        <div class="flex flex-row gap-28 mt-20 items-center justify-start">
-          <div class="flex items-center justify-start float-left">
-            <img src="./public/Group 18.png" alt="screm" />
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1">
+          Access Clipboard anywhere
+        </h1>
+
+        <h3 class="max-w-730 mt-5 text-lg text-gray text-center">
+          Whether you’re on the go, or at your computer, you can access all
+          your Clipboard snippets in a few simple clicks.
+        </h3>
+
+        <div class="mt-28">
+          <img src="./public/Group 29.png" alt="screm" />
+        </div>
+      </div>
+
+      <div class="items-center justify-center flex-col flex mt-24">
+        <h1 class="text-customGray font-semibold text-4xl -tracking--0.59">
+          Supercharge your workflow
+        </h1>
+
+        <h3 class="mt-5 text-lg text-gray">
+          We’ve got the tools to boost your productivity.
+        </h3>
+      </div>
+
+      <div class="flex justify-center items-center mt-16">
+        <div class="flex justify-center items-center gap-30 ">
+          <div class="text-center w-350">
+            <img src="./public/Group 24.svg" alt="bock" class="mx-auto mb-10 w-11 h-10">
+            <h1 class="font-semibold text-customGray text-2xl pb-4">
+              Create blacklists
+            </h1>
+            <h3 class="text-gray text-base">
+              Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+            </h3>
           </div>
 
-          <div class="">
-            <ul class="text-customGray font-semibold pb-2">
-              Quick Search
-            </ul>
-            <p class="text-gray text-base w-350">
-              Easily search your snippets by content, category, web address,
-              application, and more.
-            </p>
+          <div class="text-center w-350">
+            <img src="./public/Combined Shape 2.svg" alt="bock" class="mx-auto mb-10 w-11 h-10">
+            <h1 class="font-semibold text-customGray text-2xl pb-4">
+              Plain text snippets
+            </h1>
+            <h3 class="text-gray text-base ">
+              Remove unwanted formatting from copied text for a consistent look.
+            </h3>
+          </div>
 
-            <ul class="pt-16 text-customGray font-semibold pb-2">
-              iCloud Sync
-            </ul>
-            <p class="text-gray text-base w-350">
-              Instantly saves and syncs snippets across all your devices.
-            </p>
-
-            <ul class="pt-16 text-customGray font-semibold pb-2">
-              Complete History
-            </ul>
-            <p class="text-gray text-base w-350">
-              Retrieve any snippets from the first moment you started using the
-              app.
-            </p>
+          <div class="text-center">
+            <img src="./public/Shape.svg" alt="bock" class="mx-auto mb-10 w-11 h-10">
+            <h1 class="font-semibold text-customGray text-2xl pb-4">
+              Sneak preview
+            </h1>
+            <h3 class="text-gray text-base w-350">
+              Quick preview of all snippets on your Clipboard for easy access.
+            </h3>
           </div>
         </div>
+      </div>
 
-        <div class="flex flex-col justify-center items-center">
-          <h1
-            class="text-customGray font-semibold text-4xl -tracking--0.59 pt-padding1"
-          >
-            Access Clipboard anywhere
-          </h1>
+  </div>
 
-          <h3 class="max-w-730 mt-5 text-lg text-gray text-center">
-            Whether you’re on the go, or at your computer, you can access all
-            your Clipboard snippets in a few simple clicks.
-          </h3>
+  </main>
+  </div>
+</body>
 
-          <div class="mt-28">
-            <img src="./public/Group 29.png" alt="screm" />
-          </div>
-        </div>
-
-        <div class="items-center justify-center flex-col flex mt-24">
-          <h1 class="text-customGray font-semibold text-4xl -tracking--0.59">
-            Supercharge your workflow
-          </h1>
-
-          <h3 class="mt-5 text-lg text-gray">
-            We’ve got the tools to boost your productivity.
-          </h3>
-        </div>
-      </main>
-    </div>
-  </body>
 </html>
