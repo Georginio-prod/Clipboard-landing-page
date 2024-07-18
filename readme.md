@@ -1,4 +1,4 @@
-# Testimonials grid section
+# Clipboard landing
 
 ## Description
 
@@ -9,8 +9,7 @@
 
 ## Technologies utilisées
 
-- HTML5
-- CSS3 (Sass)
+-html & tailwindCss
 - JavaScript (si applicable)
 
  pour la typographie
@@ -80,8 +79,9 @@ Ce fichier README fournit une vue d'ensemble complète du projet, incluant la de
 
 
 # github link: 
-
+https://github.com/Georginio-prod/Clipboard-landing-page
 
 # vercel link:
 
 # frontend mentor 
+https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9
