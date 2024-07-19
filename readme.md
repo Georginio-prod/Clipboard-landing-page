@@ -82,6 +82,7 @@ Ce fichier README fournit une vue d'ensemble complète du projet, incluant la de
 https://github.com/Georginio-prod/Clipboard-landing-page
 
 # vercel link:
+https://clipboard-landing-page-rho-six.vercel.app/
 
 # frontend mentor 
 https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9
